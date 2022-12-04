@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+  import HelloWorld from '@/components/HelloWorld.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+
+  <h1> home view </h1>
+  <HelloWorld />
+
 </template>
